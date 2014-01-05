@@ -137,3 +137,9 @@ body {
 .step h4 {
 	font-weight:lighter;
 }
+
+footer {
+    bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
