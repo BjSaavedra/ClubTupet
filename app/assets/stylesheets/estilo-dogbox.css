@@ -103,5 +103,37 @@ body {
 
 	background-color: #ecf0f1;}
 
+.well {
+	margin-top: 70px;
+}
 
+.step {
+	margin-top: 30px;
+}
 
+.navLead p, span {
+	display: inline-block;
+	font-weight: bold; 
+}
+
+.navLead p {
+	font-size: 30px;
+	margin: 0 10px;
+}
+
+.navLead  span {
+	vertical-align: 40%;
+}
+
+.check-icon {
+	vertical-align: bottom;
+
+}
+
+.text-check {
+	color: #A7C280;
+}
+
+.step h4 {
+	font-weight:lighter;
+}

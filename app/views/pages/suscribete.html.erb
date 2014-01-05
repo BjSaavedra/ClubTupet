@@ -1,23 +1,34 @@
 <div class="container">
-	<div class="row">
-		Tamaño >> Planes >> Checkout
-		<hr>
+	<div class="row step">
+		<div class="navLead text-center">
+			<p class="lead">
+			</span> Tamaño</p>
 
-			
-	<div class="row">
+			<span class="glyphicon glyphicon-play  text-muted"></span>
+
+			<p class="lead  text-muted">Planes</p>
+
+			<span class="glyphicon glyphicon-play text-muted"></span>
+			<p class="lead text-muted">Pago</p>
+			<hr>
+		</div>
+
+		<h4>¿De qué tamaño es tu perro?</h4><br>
+
+
 		<%= link_to (planes_path), :class => 'col-md-4 box1' do %>
-			<img src="https://barkbox-assets.s3.amazonaws.com/assets/plan-size-small-2e6af4cdb31b423cc76b8fa8750cc333.png" alt="Perro Pequeño">
-			<p>Perro Pequeño o Cachorro</p>	
+		<img src="https://barkbox-assets.s3.amazonaws.com/assets/plan-size-small-2e6af4cdb31b423cc76b8fa8750cc333.png" alt="Perro Pequeño">
+		<p>Perro Pequeño o Cachorro</p>	
 		<% end %>
 
 		<%= link_to (planess_path), :class => 'col-md-4 box2' do %>
-			<img src="https://barkbox-assets.s3.amazonaws.com/assets/plan-size-medium-ab171212b7fee953fb3d5f129ba48d62.png" alt="Perro Mediano">
-			<p>Perro Mediano</p>
+		<img src="https://barkbox-assets.s3.amazonaws.com/assets/plan-size-medium-ab171212b7fee953fb3d5f129ba48d62.png" alt="Perro Mediano">
+		<p>Perro Mediano</p>
 		<% end %>
 
 		<%= link_to (planesss_path), :class => 'col-md-4 box3' do %>
-			<img src="https://barkbox-assets.s3.amazonaws.com/assets/plan-size-large-be0b6173ee38ff16baae7e3ee250a50f.png" alt="Perro Grande">
-			<p>Perro Grande</p>
+		<img src="https://barkbox-assets.s3.amazonaws.com/assets/plan-size-large-be0b6173ee38ff16baae7e3ee250a50f.png" alt="Perro Grande">
+		<p>Perro Grande</p>
 		<% end %>
 	</div>
 
