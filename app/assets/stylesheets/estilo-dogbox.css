@@ -29,9 +29,9 @@ body {
 
 
 .jumbotron {
-	height: 400px;
-	background:#4bb4e3 url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/1005874_183261378505916_124794999_n.jpg) no-repeat top right;
-	-webkit-background-size: cover;
+ height: 400px;
+ background:#4bb4e3 url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/1005874_183261378505916_124794999_n.jpg) no-repeat top right;
+ -webkit-background-size: cover;
  -moz-background-size: cover;
  background-size: cover;
 }
