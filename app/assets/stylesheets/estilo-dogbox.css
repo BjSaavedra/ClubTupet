@@ -1,5 +1,5 @@
 body {
-	background-color: #ecf0f1; 
+	background-color:#ffffff; /*#ecf0f1*/ 
 }
 
 .navbar { 
@@ -30,7 +30,7 @@ body {
 
 .jumbotron {
  height: 400px;
- background:#4bb4e3 url(http://oi41.tinypic.com/ff4dax.jpg) no-repeat top right;
+ background:#4bb4e3 url(http://clubguaf.com/images/Pasto.png) no-repeat top right;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  background-size: cover;
@@ -38,22 +38,24 @@ body {
 
 .jumbotron h1 {
 	font-size: 50px;
-	color:#4bb4e3;
-	/*
+	color:#ffffff;
 	text-shadow:2px 2px 2px #000000;
-	*/
 }
 
 .block {
 	background-color: white;
+	/*
 	border: solid 1px #808080;
 	border-bottom: none;
+	*/
 	width: 100%;
 }
 
 .boxx {
 	background-color: white;
+	/*
 	border: solid 1px #808080;
+	*/
 	width: 100%;
 }
 
