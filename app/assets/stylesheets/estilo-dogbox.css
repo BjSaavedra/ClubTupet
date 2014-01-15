@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Peralta|Love+Ya+Like+A+Sister|Englebert);
 body {
-	background-color:#ffffff; /*#ecf0f1*/ 
+	/*#ecf0f1*/
+	background-color:#ffffff;  
+	font-family: Helvetica;
 }
 
 .navbar { 
@@ -40,7 +43,9 @@ body {
 	font-size: 50px;
 	color:#ffffff;
 	text-shadow:2px 2px 2px #000000;
-}
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Peralta', cursive;
+font-family: 'Englebert', sans-serif;}
 
 .block {
 	background-color: white;
@@ -227,4 +232,3 @@ ul li .arg {
 	padding: 20px 0;
 	font-weight: lighter;
 }
-
