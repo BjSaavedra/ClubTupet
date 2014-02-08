@@ -2,12 +2,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-6 col-lg-6">
-					<h1 class="text-center">La caja mensual de productos para tu perro</h1>
+					<h1 class="text-center">La caja mensual de productos para tu perro
+					</h1>
 				</div>
 			</div>
 			<div class="row">
 				<div class=" col-md-6 col-sm-6 col-lg-6 cta-col">
-					<%= link_to 'Lo Quiero ya', suscribete_path, :class => ' cta', :role => 'button' %>
+					<%= link_to 'Lo Quiero ya', planes_path, :class => ' cta', :role => 'button' %>
+					<br>
+					<p>Solo 20 cajas</p>
 				</div>
 			</div>	
 		</div>
@@ -33,41 +36,56 @@
 				
 			</div>
 		</div>  <!-- Fin Size-->
-
 		<div class="howWork block">
 			<h2>Como Funciona</h2>
 			<div class="row">
-				<h3 class="col-md-4">Escoge el tamaño de tu perro</h3>
-				<h3  class="col-md-4">Escoge tu plan</h3>
-				<h3 class="col-md-4">Disfruta DogBox</h3>
+				<h3 class="col-md-4 col-lg-4 col-sm-4">Escoge tu plan</h3>
+				<h3  class="col-md-4 col-lg-4 col-sm-4">Realiza la Transferencia</h3>
+				<h3 class="col-md-4 col-lg-4 col-sm-4">Disfruta!</h3>
 			</div>
-
 			<div class="row">
-				<img class="img-responsive col-md-4" src="https://barkbox-assets.s3.amazonaws.com/assets/choose1-c7f48a010ff833610dcb8f50497defb1.png" alt="Escoge el tamaño de tu Perro">
-				<img class="img-responsive col-md-4" src="https://barkbox-assets.s3.amazonaws.com/assets/choose2-5372329485ef81a8fb06b45aa7bc8b4b.png" alt="Escoge tu Plan">	
-				<img class="img-responsive col-md-4" src="https://barkbox-assets.s3.amazonaws.com/assets/choose3-f73273b339a288a8860208ff41d2257f.png" alt="Disfruta!">	
-			</div>
-
-			<div class="row">
-				<p class="col-md-4">Tell us how big your dog's bark is. We've got goodies for every dog size.</p>
-				<p class="col-md-4">Monthly, 3-month or 6-month plans available. Cancel anytime. Free shipping.</p>					
-				<p  class="col-md-4">BarkBoxes are shipped on the 15th of each month. Get excited!</p>
+				<p class="col-md-4 col-lg-4 col-sm-4">Dinos por cuanto tiempo quieres suscribirte 6, 3 o 1 mes.</p>
+				<p class="col-md-4 col-lg-4 col-sm-4">Te enviaremos un Correo con la infoemación para realizar el pago</p>					
+				<p  class="col-md-4 col-lg-4 col-sm-4">Los día 15 de cada mes llegara tu caja a la puerta de tu casa</p>
 			</div>			
+
+			<div class="row">
+				<div class="col-md-4 col-lg-4 center">
+					<img class="" src="http://goo.gl/FhncCM" style="width:200px;" alt="Escoge el tamaño de tu Perro">
+				</div>
+
+				<div class="col-md-4 col-lg-4 col-sm-4  center">
+					<img class="" src="http://goo.gl/iFcga4" style="width:200px;" alt="Escoge tu Plan">
+				</div>	
+
+				<div class="col-md-4 col-lg-4 col-sm-4 center">
+					<img class="" src="http://goo.gl/QvD1Zr" style="width:200px;" alt="Disfruta!">	
+				</div>
+			</div>
+
 		</div> <!-- Fin HowWork-->
+	</div> <!-- Fin Container-->
 
+			<script type="text/javascript">
+	      	document.getElementById('startButton').onclick = function() {
+	        introJs().start().oncomplete(function() {
+	          window.location.href = 'sku1?multipage1=true';
+	        });
+	      };
+	    </script>
 
-		<div class="ctaBottom boxx">
-				<h2>Comienza Ya!</h2>
+<!--
+	<div class="full">
+		<div class="container">
+			<div class="ctaBottom block">
 				<div class="row">
+					<h2>Comienza Ya!</h2>
 					<div class="col-md-6 col-md-offset-4 btn">
-						
-
-						<%= link_to 'Lo Quiero ya', suscribete_path, :class => 'btn btn-primary' %>
-						<%= link_to 'Paga regalar', suscribete_path, :class => 'btn btn-info' %>
-				
-					
+						<%= link_to 'Lo Quiero ya', suscribete_path, :class => 'cta' %>
 					</div>
 				</div>
-		</div> <!-- Fin ctaBottom-->
-	</div> <!-- Last Container-->
+			-->
+			<!-- </div>Fin ctaBottom-->
+			<!-- </div>Fin Container-->
+			<!-- </div>Fin Full-->
 
