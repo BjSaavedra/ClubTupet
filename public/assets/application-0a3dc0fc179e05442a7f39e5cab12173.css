@@ -1,0 +1,297 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+body {
+	background-color:#ffffff;  
+	font-family: 'Carme', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: 'Carme', sans-serif;
+}
+
+.navbar { 
+	background-image: none;
+	background-color: #4bb4e3;
+	border: none;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	box-shadow: none;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	margin: 0;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: silver;
+}
+
+
+.jumbotron {
+ height: 400px;
+ background:#4bb4e3 url(http://clubguaf.com/images/Pasto.png) no-repeat top right;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ background-size: cover;
+}
+
+.jumbotron h1 {
+	font-size: 50px;
+	color:#ffffff;
+	text-shadow:2px 2px 2px #000000;
+}
+
+.jumbotron p {
+	color: #ffffff;
+	margin-top: 30px;
+	text-shadow:2px 2px 2px #000000;
+	text-align: center;
+}
+
+
+.block {
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+.box {
+	background: #ffffff;
+    -webkit-background: gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(:;7, #f6f6f6), to(#ededed));
+    -webkit-background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    -moz-background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+	border:solid 1px #808080;
+	height: 300px;
+	text-align: center;
+}
+
+.box1 {
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright:0px;
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:0px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:0px;
+	border-top-left-radius:10px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:0px;
+}
+
+.box2 {
+	border-right:none;
+	border-left: none;
+}
+
+.box3 {
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomleft:0px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-top-left-radius:0px;
+	-webkit-border-top-right-radius:10px;
+	-webkit-border-bottom-left-radius:0px;
+	-webkit-border-bottom-right-radius:10px;
+	border-top-left-radius:0px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:10px;
+	background-color: #ecf0f1;}
+
+
+.box p {
+	font-weight: bold;
+	font-size: 24px;
+	color: gray;
+}
+
+.box:link {
+	text-decoration: none;
+}
+
+.box:visited {
+	text-decoration: none;
+}
+
+.box:hover {
+	background: #ffffff;
+    -webkit-background: gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(:;7, #f6f6f6), to(#ededed));
+    -webkit-background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    -moz-background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    background: linear-gradient(#ffffff 0%, #f6f6f6 47%, #ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );	
+	text-decoration: none;
+}
+
+.box:active {
+	background: #f6f6f6;
+	text-decoration: none;
+}
+
+.plan1 {
+	margin-top: 80px;
+}
+.plan2 {
+	margin-top: 70px;
+}
+
+.plan3 {
+	margin-top: 20px;
+
+}
+
+.step {
+	margin-top: 30px;
+}
+
+.navLead p, span {
+	display: inline-block;
+	font-weight: bold; 
+}
+
+.navLead p {
+	font-size: 30px;
+	margin: 0 10px;
+}
+
+.navLead  span {
+	vertical-align: 40%;
+}
+
+.check-icon {
+	vertical-align: bottom;
+
+}
+
+.text-check {
+	color: #A7C280;
+}
+
+.step h4 {
+	font-weight:lighter;
+}
+
+.cta {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e709c), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e709c, #65a9d7);
+   background: -moz-linear-gradient(top, #3e709c, #65a9d7);
+   background: -ms-linear-gradient(top, #3e709c, #65a9d7);
+   background: -o-linear-gradient(top, #3e709c, #65a9d7);
+   padding: 20px 40px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   text-decoration: none;
+   vertical-align: middle;
+
+   margin-top: 30px;
+   }
+.cta:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+	text-decoration: none;
+
+   }
+.cta:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   text-decoration: none;
+ 	}
+
+
+.cta-col {
+	margin-top: 50px;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+ul li .arg {
+	list-style: none;
+	font-size: 20px;
+	padding: 20px 0;
+	font-weight: lighter;
+}
+
+.faqBox {
+	margin-bottom: 50px;
+}	
+
+.full {
+	background-color: #4bb4e3;
+	color: #ffffff;
+	height: 200px;
+	width: 100%;
+}
+
+.top {
+	margin-top: 40px;
+}
+
+.aside {
+	position: fixed;
+	text-align: left;
+}
+
+.summary {
+	border:solid 1px #000000;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.checkout {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.footer {
+	margin-top: 200px;
+}
+
+.center {
+	text-align: center;
+}
