@@ -11,6 +11,7 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <link href="//fonts.googleapis.com/css?family=Carme:400" rel="stylesheet" type="text/css">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -33,10 +34,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Como Funciona?</a></li>
-          <li><a href="#">P&R</a></li>
-          <li><a href="#">Producto</a></li>
+          <li><%= root_path %></li>
+          <li><%= link_to "Como Funciona", comofunciona_path %></li>
+          <li><%= link_to "P&R", preguntas_path %></li>
 
         </ul>
         <!-- /.navbar-collapse -->
@@ -46,18 +46,7 @@
 
   <%= yield %>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <ul class="list-inline col-md-12">
-          <li>Blog</li>
-          <li>Nosotros</li>
-          <li>Trabajo</li>
-          <li>Contactanos</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+
 
   <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://www.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'a56180ee-bc3b-40f2-80d7-a297c6f2f53e', f: true }); done = true; } }; })();</script>
 
