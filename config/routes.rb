@@ -5,18 +5,13 @@ Dogbox::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'pages#index'
   get 'suscribete' => 'pages#suscribete'
+  get 'preguntas' => 'pages#preguntas'
+  get 'comofunciona' => 'pages#comofunciona'
   get 'planes' => 'pages#planes'
-  get 'planess' => 'pages#planess'
-  get 'planesss' => 'pages#planesss'
   get 'sku1' => 'pages#sku1'
   get 'sku2' => 'pages#sku2'
   get 'sku3' => 'pages#sku3'
-  get 'sku4' => 'pages#sku4'
-  get 'sku5' => 'pages#sku5'
-  get 'sku6' => 'pages#sku6'
-  get 'sku7' => 'pages#sku7'
-  get 'sku8' => 'pages#sku8'
-  get 'sku9' => 'pages#sku9'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
